@@ -1,0 +1,119 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "I'm Amandine and I'm a junior front-end developer working with React. I can help you build library components,  integrate a new website design, develop features, and much more... ",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience",
+        "education": "Education"
+      }
+    },
+    "projects": [
+      {
+        "title": "Meta portfolio",
+        "startDate": "2022",
+        "description": "Clone of instagramm using my portfolio informations",
+        "images": [
+          "images/portfolio/meta_portfolio/meta_projects.png",
+          "images/portfolio/meta_portfolio/meta_interest.png",
+          "images/portfolio/meta_portfolio/meta_education.png"
+        ],
+        "url": "https://amandine-carreno-portefolio-6tgr1yjzt-carra1358.vercel.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-sass-plain",
+            "name": "sass"
+          }
+        ]
+      },
+      {
+        "title": "KASA",
+        "startDate": "2021",
+        "description": "House rental application",
+        "images": [
+          "images/portfolio/kasa/kasa_home.png",
+          "images/portfolio/kasa/kasa_housing.png",
+          "images/portfolio/kasa/kasa_service.png"
+         
+        ],
+        "url": "https://6220ae151fdc41c1146c4cf5--competent-elion-88a1e3.netlify.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Modal library",
+        "startDate": "2022",
+        "description": "Create a React library",
+        "images": [
+          "images/portfolio/modal/modal_default.png",
+          "images/portfolio/modal/modal_form.png",
+          "images/portfolio/modal/modal_simple.png"
+        ],
+        "url": "https://62b99f10181b18c4805809a2-oqydjtzufj.chromatic.com/?path=/story/component-modal--default",
+        "technologies": [
+          {
+            "class": "devicon-storybook-plain",
+            "name": "storybook"
+          },
+          {
+            "class": "devicon-jest-plain",
+            "name": "Jest"
+          },
+          {
+            "class": "devicon-react-plain",
+            "name": "react"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Montse Rocabert Art",
+        "title": "Front-End Developer Freelance",
+        "years": "10.2021 - 03.2022",
+        "mainTech": [
+          "Wordpress"
+        ],
+        "technologies": [
+          "local",
+          "Wordpress"
+        ]
+      },
+      {
+        "company": "SEPHORA Switzerland",
+        "title": "Beauty Advisor",
+        "years": "09.2016 - 05.2020",
+        "mainTech": [
+          ""
+        ],
+        "technologies": [ ""
+        ]
+      }
+    ],
+    "education": [
+      {
+        "school": "OpenClassroom",
+        "title": "Certification Front-End Developer",
+        "years": "09.2020 - 06.2022"
+      },
+      {
+        "school": "University of Montreal",
+        "title": "Bsc Communication and Politics",
+        "years": "09.2010 - 07.2014"
+      }
+    ]
+  }

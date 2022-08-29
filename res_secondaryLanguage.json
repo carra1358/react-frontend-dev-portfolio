@@ -1,0 +1,119 @@
+{
+    "basic_info": {
+      "description_header": "Bonjour",
+      "description": "Mon nom est Amandine, je suis une développeur front-end junior travaillant avec React. Je peux vous aider à créer des composants de bibliothèque, à intégrer une nouvelle maquette de site Web, à développer des fonctionnalités, et bien plus encore...",
+      "section_name": {
+        "about": "A propos",
+        "projects": "Projets",
+        "skills": "Technologies",
+        "experience": "Expériences",
+        "education": "Education"
+      }
+    },
+    "projects": [
+      {
+        "title": "Meta portfolio",
+        "startDate": "2022",
+        "description": "Clone d'Instagram en utilisant mon profil professionnel",
+        "images": [
+          "images/portfolio/meta_portfolio/meta_projects.png",
+          "images/portfolio/meta_portfolio/meta_interest.png",
+          "images/portfolio/meta_portfolio/meta_education.png"
+        ],
+        "url": "https://amandine-carreno-portefolio-6tgr1yjzt-carra1358.vercel.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-sass-plain",
+            "name": "sass"
+          }
+        ]
+      },
+      {
+        "title": "KASA",
+        "startDate": "2021",
+        "description": "Application de location de logements",
+        "images": [
+          "images/portfolio/kasa/kasa_home.png",
+          "images/portfolio/kasa/kasa_housing.png",
+          "images/portfolio/kasa/kasa_service.png"
+         
+        ],
+        "url": "https://6220ae151fdc41c1146c4cf5--competent-elion-88a1e3.netlify.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Plugin Modale",
+        "startDate": "2022",
+        "description": "Création d'une librairie React.",
+        "images": [
+          "images/portfolio/modal/modal_default.png",
+          "images/portfolio/modal/modal_form.png",
+          "images/portfolio/modal/modal_simple.png"
+        ],
+        "url": "https://62b99f10181b18c4805809a2-oqydjtzufj.chromatic.com/?path=/story/component-modal--default",
+        "technologies": [
+          {
+            "class": "devicon-storybook-plain",
+            "name": "storybook"
+          },
+          {
+            "class": "devicon-jest-plain",
+            "name": "Jest"
+          },
+          {
+            "class": "devicon-react-plain",
+            "name": "react"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Montse Rocabert Art",
+        "title": "Dévelopeuse Front-End Freelance",
+        "years": "10.2021 - 03.2022",
+        "mainTech": [
+          "Wordpress"
+        ],
+        "technologies": [
+          "local",
+          "Wordpress"
+        ]
+      },
+      {
+        "company": "SEPHORA Switzerland",
+        "title": "Conseillère Beauté",
+        "years": "09.2016 - 05.2020",
+        "mainTech": [
+          ""
+        ],
+        "technologies": [ ""
+        ]
+      }
+    ],
+    "education": [
+      {
+        "school": "OpenClassroom",
+        "title": "Certificat Developpeur Front-End",
+        "years": "09.2020 - 06.2022"
+      },
+      {
+        "school": "Université de Montréal",
+        "title": "Bsc Communication et Sciences politiques",
+        "years": "09.2010 - 07.2014"
+      }
+    ]
+  }
