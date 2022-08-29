@@ -1,48 +1,48 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "I'm Amandine and I'm a junior front-end developer working with React. I can help you build library components,  integrate a new website design, develop features, and much more... ",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
         "skills": "Skills",
-        "experience": "Experience"
+        "experience": "Experience",
+        "education": "Education"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Meta portfolio",
+        "startDate": "2022",
+        "description": "Clone of instagramm using my portfolio informations",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/meta_portfolio/meta_projects.png",
+          "images/portfolio/meta_portfolio/meta_interest.png",
+          "images/portfolio/meta_portfolio/meta_education.png"
         ],
-        "url": "",
+        "url": "https://amandine-carreno-portefolio-6tgr1yjzt-carra1358.vercel.app/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-plain",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-sass-plain",
+            "name": "sass"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "KASA",
+        "startDate": "2021",
+        "description": "House rental application",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/kasa/kasa_home.png",
+          "images/portfolio/kasa/kasa_housing.png",
+          "images/portfolio/kasa/kasa_service.png"
+         
         ],
-        "url": "https://github.com",
+        "url": "https://6220ae151fdc41c1146c4cf5--competent-elion-88a1e3.netlify.app/",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -55,64 +55,65 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Modal library",
+        "startDate": "2022",
+        "description": "Create a React library",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/modal/modal_default.png",
+          "images/portfolio/modal/modal_form.png",
+          "images/portfolio/modal/modal_simple.png"
         ],
-        "url": "https://github.com",
+        "url": "https://62b99f10181b18c4805809a2-oqydjtzufj.chromatic.com/?path=/story/component-modal--default",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-storybook-plain",
+            "name": "storybook"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-jest-plain",
+            "name": "Jest"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-react-plain",
+            "name": "react"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Montse Rocabert Art",
+        "title": "Front-End Developer Freelance",
+        "years": "10.2021 - 03.2022",
         "mainTech": [
-          "Angular 8/9/10"
+          "Wordpress"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "local",
+          "Wordpress"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "SEPHORA Switzerland",
+        "title": "Beauty Advisor",
+        "years": "09.2016 - 05.2020",
         "mainTech": [
-          "Angular 7/8"
+          ""
         ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+        "technologies": [ ""
         ]
+      }
+    ],
+    "education": [
+      {
+        "school": "OpenClassroom",
+        "title": "Certification Front-End Developer",
+        "years": "09.2020 - 06.2022"
+      },
+      {
+        "school": "University of Montreal",
+        "title": "Bsc Communication and Politics",
+        "years": "09.2010 - 07.2014"
       }
     ]
   }

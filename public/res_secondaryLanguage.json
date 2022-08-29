@@ -1,48 +1,48 @@
 {
     "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description_header": "Bonjour",
+      "description": "Mon nom est Amandine, je suis une développeur front-end junior travaillant avec React. Je peux vous aider à créer des composants de bibliothèque, à intégrer une nouvelle maquette de site Web, à développer des fonctionnalités, et bien plus encore...",
       "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "about": "A propos",
+        "projects": "Projets",
+        "skills": "Technologies",
+        "experience": "Expériences",
+        "education": "Education"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "title": "Meta portfolio",
+        "startDate": "2022",
+        "description": "Clone d'Instagram en utilisant mon profil professionnel",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/meta_portfolio/meta_projects.png",
+          "images/portfolio/meta_portfolio/meta_interest.png",
+          "images/portfolio/meta_portfolio/meta_education.png"
         ],
-        "url": "",
+        "url": "https://amandine-carreno-portefolio-6tgr1yjzt-carra1358.vercel.app/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-plain",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-sass-plain",
+            "name": "sass"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
+        "title": "KASA",
+        "startDate": "2021",
+        "description": "Application de location de logements",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/kasa/kasa_home.png",
+          "images/portfolio/kasa/kasa_housing.png",
+          "images/portfolio/kasa/kasa_service.png"
+         
         ],
-        "url": "https://github.com",
+        "url": "https://6220ae151fdc41c1146c4cf5--competent-elion-88a1e3.netlify.app/",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -55,62 +55,65 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+        "title": "Plugin Modale",
+        "startDate": "2022",
+        "description": "Création d'une librairie React.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/modal/modal_default.png",
+          "images/portfolio/modal/modal_form.png",
+          "images/portfolio/modal/modal_simple.png"
         ],
-        "url": "https://github.com",
+        "url": "https://62b99f10181b18c4805809a2-oqydjtzufj.chromatic.com/?path=/story/component-modal--default",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-storybook-plain",
+            "name": "storybook"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-jest-plain",
+            "name": "Jest"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-react-plain",
+            "name": "react"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
+        "company": "Montse Rocabert Art",
+        "title": "Dévelopeuse Front-End Freelance",
+        "years": "10.2021 - 03.2022",
         "mainTech": [
-          "Angular 8/9/10"
+          "Wordpress"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
+          "local",
+          "Wordpress"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
+        "company": "SEPHORA Switzerland",
+        "title": "Conseillère Beauté",
+        "years": "09.2016 - 05.2020",
         "mainTech": [
-          "Angular 7/8"
+          ""
         ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
+        "technologies": [ ""
         ]
+      }
+    ],
+    "education": [
+      {
+        "school": "OpenClassroom",
+        "title": "Certificat Developpeur Front-End",
+        "years": "09.2020 - 06.2022"
+      },
+      {
+        "school": "Université de Montréal",
+        "title": "Bsc Communication et Sciences politiques",
+        "years": "09.2010 - 07.2014"
       }
     ]
   }

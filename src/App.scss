@@ -1,5 +1,5 @@
-@import '../src/scss/themes/theme-dark.scss';
-@import '../src/scss/themes/theme-light.scss';
+@import './scss/themes/theme-light.scss';
+@import './scss/themes/theme-dark.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
 html {
@@ -93,6 +93,13 @@ header h1 {
 	border: 5px solid #D7CAAA;
 }
 
+.awssld__content{
+	img{
+		object-fit: contain;
+	}
+}
+
+
 .slider-tab {
 	background-color: #D7CAAA;
 	height: 25px;
@@ -126,6 +133,7 @@ header h1 {
 	width: 100%;
 }
 
+
 .foto div {
 	background: #ffffff;
 	display: inline-block;
@@ -141,6 +149,7 @@ header h1 {
 	transition: all .20s linear;
 	z-index: 0;
 	position: relative;
+	width: 80%;
 }
 
 .foto div:after {
@@ -172,7 +181,8 @@ header h1 {
 
 .polaroid img {
 	display: block;
-	max-width: 200px;
+	max-width: 250px;
+	
 }
 
 .polaroid span {
@@ -191,6 +201,7 @@ header h1 {
 	z-index: 0;
 	position: relative;
 }
+
 
 .link-href {
 	color: black;
@@ -220,6 +231,11 @@ header h1 {
 
 #resume {
 	background: #efe1bd;
+}
+
+#education{
+	background-color: rgba(0, 0, 0, 0.175);
+
 }
 
 .experience-icon {
@@ -278,6 +294,7 @@ header h1 {
 	margin-top: 36px;
 	list-style: none;
 }
+
 
 .bars li {
 	position: relative;
