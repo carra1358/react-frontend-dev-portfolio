@@ -43,13 +43,7 @@ class App extends Component {
       .setAttribute("filter", "brightness(40%)");
   }
 
-  componentDidMount() {
-    this.loadSharedData();
-    this.applyPickedLanguage(
-      window.$primaryLanguage,
-      window.$secondaryLanguageIconId
-    );
-  }
+
 
   loadResumeFromPath(path) {
     $.ajax({
@@ -78,6 +72,14 @@ class App extends Component {
         alert(err);
       },
     });
+  }
+
+  componentDidMount() {
+    this.loadSharedData();
+    this.applyPickedLanguage(
+      window.$primaryLanguage,
+      window.$secondaryLanguageIconId
+    );
   }
 
   render() {
