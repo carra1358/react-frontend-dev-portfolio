@@ -12,9 +12,33 @@
     },
     "projects": [
       {
+        "title": "Four cards section",
+        "startDate": "2022",
+        "description": "Create a four section cards item from Front-end mentor design.",
+        "images": [
+          "images/portfolio/four_card_section/desktop-design.png",
+          "images/portfolio/four_card_section/mobile-design.png"
+        ],
+        "url": "https://four-card-feature-section-eight-kappa.vercel.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-sass-plain",
+            "name": "sass"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "typescript"
+          }
+        ]
+      },
+      {
         "title": "Meta portfolio",
         "startDate": "2022",
-        "description": "Clone of instagramm using my portfolio informations",
+        "description": "Clone of Instagram using my professional profile",
         "images": [
           "images/portfolio/meta_portfolio/meta_projects.png",
           "images/portfolio/meta_portfolio/meta_interest.png",
